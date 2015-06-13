@@ -1,0 +1,12 @@
+blockdiag {
+   // Set labels to nodes.
+   beehouse [label = "beehouse",background="beehouse.png"];
+   hotspot [label = "access point"];
+   // And set text-color
+   cloud_db [label = "cloud database"];
+
+   // Set labels to edges. (short text only)
+   beehouse -> hotspot;// [label = "click bar", textcolor="red"];
+   hotspot -> cloud_db;// [label = "click baz"];
+   //C -> A;
+}
